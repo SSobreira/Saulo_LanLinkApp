@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>netcoreapp2.0</TargetFramework><AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback><RootNamespace>LanLinkApp</RootNamespace><AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects><GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType><GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles></PropertyGroup><ItemGroup>
+  <Compile Remove="Migrations\20171212143237_Correlations.cs" />
+  <Compile Remove="Migrations\20171212144126_FirstModification.cs" />
+  <Compile Remove="Migrations\20171212144635_SauloFirstModification.cs" />
+  <Compile Remove="Migrations\20171212145035_Saulo-AbpUserModify.cs" />
+  <Compile Remove="Migrations\20171212221838_2ºEdition.cs" />
+  <Compile Remove="Migrations\20171212222017_Saulo-AddingDepartment.cs" />
+  <Compile Remove="Migrations\20171212233538_Saulo-AddingTransactions.cs" />
+  <Compile Remove="Migrations\20171212233757_Saulo-AddingDepartmentAndTransactions.cs" />
+  <Compile Remove="Migrations\20171213000217_SauloAddingDB.cs" />
+  <Compile Remove="Migrations\20171213003239_FromLong2Int.cs" />
+  <Compile Remove="Migrations\20171213003421_Saulo_Edition_One.cs" />
+  <Compile Remove="Migrations\20171213012133_Saulo_Edition_One.cs" />
+  <Compile Remove="Migrations\20171213034520_Saulo_Edition_One.cs" />
+  <Compile Remove="Migrations\20171213112900_Saulo-Edition.cs" />
+  <Compile Remove="Migrations\20171213120212_Saulo-Edition2.cs" />
+</ItemGroup><ItemGroup><PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" /><PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" /><PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.1" /></ItemGroup><ItemGroup><ProjectReference Include="..\LanLinkApp.Core\LanLinkApp.Core.csproj" /></ItemGroup><ItemGroup><DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" /></ItemGroup><ItemGroup Condition=" '$(TargetFramework)' == 'net461' "><Reference Include="System.Transactions" /></ItemGroup></Project>

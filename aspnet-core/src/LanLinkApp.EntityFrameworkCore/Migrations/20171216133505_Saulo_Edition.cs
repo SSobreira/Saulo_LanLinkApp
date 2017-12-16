@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace LanLinkApp.Migrations
 {
-    public partial class SauloEdition : Migration
+    public partial class Saulo_Edition : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

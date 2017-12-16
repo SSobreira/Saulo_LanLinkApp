@@ -14,4 +14,5 @@
   <Compile Remove="Migrations\20171213034520_Saulo_Edition_One.cs" />
   <Compile Remove="Migrations\20171213112900_Saulo-Edition.cs" />
   <Compile Remove="Migrations\20171213120212_Saulo-Edition2.cs" />
+  <Compile Remove="Migrations\20171213121118_Saulo-Edition.cs" />
 </ItemGroup><ItemGroup><PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" /><PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" /><PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.1" /></ItemGroup><ItemGroup><ProjectReference Include="..\LanLinkApp.Core\LanLinkApp.Core.csproj" /></ItemGroup><ItemGroup><DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" /></ItemGroup><ItemGroup Condition=" '$(TargetFramework)' == 'net461' "><Reference Include="System.Transactions" /></ItemGroup></Project>

@@ -15,8 +15,8 @@ using System;
 namespace LanLinkApp.Migrations
 {
     [DbContext(typeof(LanLinkAppDbContext))]
-    [Migration("20171213121118_Saulo-Edition")]
-    partial class SauloEdition
+    [Migration("20171216133505_Saulo_Edition")]
+    partial class Saulo_Edition
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
